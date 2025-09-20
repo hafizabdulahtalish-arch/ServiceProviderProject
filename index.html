@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courgette&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0">
+    </script>
+
+
+    <div class="container">
+        <div class="heroContainer">
+            <div class="heroInsideContainer">
+                <div class="navbar">
+                    <h1>Arshad Technical Service</h1>
+                    <div class="links">
+                        <a class="home" href="">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Service</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="wraper">
+                    <div class="heroTextPart">
+                        <p class="pera1">100% SATISFACTION GUARANTEE</p>
+                        <h1 class="textHeading">Your Go-To Service <br>
+                            <h1 class="provider">Providers</h1>
+                        </h1>
+                        <p class="pera2">from Electrocal to Plumbing, We bring Professional Handyman Services Right to
+                            Your Doorstep -
+                            Quik, Affordable, and Trusted. Let Us Handle The fixes, While You Sit Back and Relax
+                        </p>
+                        <a class="seviceBtn" href="#services">Our Services</a>
+                    </div>
+                    <div class="heroImagePart">
+                        <img src="pics/smiling-bearded-business-man-protective-helmet-holding-crossed-arms.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="facebookPageShow">
+  <div class="facebookText">
+    <h2>Stay Connected With Us on Facebook</h2>
+    <p>Join our Facebook community to stay updated with our latest services, special offers. 
+      Follow us today and be a part of our growing family!
+    </p>       
+  </div>
+
+  <!-- Facebook Page Plugin -->
+  <div class="facebookPage">
+    <div class="fb-page"
+      data-href="https://www.facebook.com/profile.php?id=61581049294858#"
+      data-tabs="timeline"
+      data-height="600"
+      data-small-header="false"
+      data-adapt-container-width="true"
+      data-hide-cover="false"
+      data-show-facepile="false">
+      <blockquote cite="https://www.facebook.com/profile.php?id=61581049294858#"
+        class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/profile.php?id=61581049294858#">‎Fashion Frenzy ‎</a>
+      </blockquote>
+    </div>
+  </div>
+</div>
+
+<!-- Set data-width dynamically -->
+<script>
+  function updateFbWidth() {
+    const fbPage = document.querySelector(".fb-page");
+    if (!fbPage) return;
+
+    if (window.innerWidth >= 850) {
+      fbPage.setAttribute("data-width", "500");
+    } else {
+      fbPage.setAttribute("data-width", "350");
+    }
+
+    if (window.FB) {
+      FB.XFBML.parse();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", updateFbWidth);
+  window.addEventListener("resize", updateFbWidth);
+</script>
+
+<!-- Facebook SDK -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/ur_PK/sdk.js#xfbml=1&version=v23.0&appId=643899461587415">
+</script>
+
+
+
+
+        <div id="services">
+            <p>OUR SERVICES</p>
+            <h1>Soulution for Renovating<br> Home Repairing</h1>
+
+            <div class="serviceGrid">
+                <a href="electrition.html" class="item">
+                    <div class="image">
+                        <img src="pics/emmanuel-ikwuegbu--0-kl1BjvFc-unsplash.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Electrical Work</p>
+                    </div>
+                    </a>
+
+                <a href="painting.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-tima-miroshnichenko-6474123.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Painting Work</p>
+                    </div>
+                </a>
+                <a href="plumbing.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-asphotograpy-14953886.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Plumbing Service</p>
+                    </div>
+                </a>
+                <a href="AC.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-multitech-institute-2155038539-33671149.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>AC Instalation & Maint</p>
+                    </div>
+                </a>
+                <a href="swimming.html" class="item">
+                    <div class="image">
+                        <img src="pics/coach-teaching-kid-indoor-swimming-pool-how-swim-dive-swimming-lesson-kids-development.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Swimming Pool Inst </p>
+                    </div>
+                </a>
+                <a href="tiles.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-lamiko-3615716.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Tiles Fixing</p>
+                    </div>
+                </a>
+                <a href="plaster.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-shkrabaanthony-5493658.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Plaster Work</p>
+                    </div>
+                </a>
+                <a href="flooring.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-tima-miroshnichenko-6473981.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Flooring Work</p>
+                    </div>
+                </a>
+                <a href="cleaning.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-mastercowley-713297.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Cleaning Service</p>
+                    </div>
+                </a>
+                <a href="electricalfiting.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-mikhail-nilov-9242887.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Electrical Fittings</p>
+                    </div>
+                </a>
+                <a href="carpentry.html" class="item">
+                    <div class="image">
+                        <img src="pics/pexels-ono-kosuki-5974325.jpg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Carpentry Work</p>
+                    </div>
+                </a>
+                <a href="celling.html" class="item">
+                    <div class="image">
+                        <img src="pics/1b3e6e0c-7673-4758-a853-3113e5630c75.jpeg"
+                            alt="">
+                    </div>
+                    <div class="text">
+                        <p>Celling Work</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <a class="telCallUS" href="tel:0525427458">
+        <div class="callUsContainer">
+            <div class="CallUs">
+                <p>Any question about our services?</p>
+                <div class="phoneNum">
+                    <img src="pics//phone-call.png" alt="">
+                    <h3>Call us & Book Now 0525427458</h3>
+                </div>
+            </div>
+        </div>
+        </a>
+
+
+
+
+        <div id="about">
+            <div class="aboutText">
+                <h3>About us</h3>
+                <h2>Arshad technical service <br> Your Trusted Partner</h2>
+                <p class="aboutUs">Welcome to our company, your trusted partner for complete home and commercial
+                    solutions.
+                    We specialize in a wide range of services including electrical work, plumbing, painting, tiles
+                    fixing,
+                    plaster and flooring works. Our expert team also provides AC installation & maintenance, cleaning
+                    services,
+                    carpentry, and ceiling work with the highest standards of quality. With professional skills and
+                    years of
+                    experience,
+                    we ensure reliable, fast, and affordable solutions for all your needs. Customer satisfaction is our
+                    top
+                    priority,
+                    and we strive to deliver excellence in every project we handle.</p>
+            </div>
+
+            <div class="aboutImage">
+                <img src="pics//—Pngtree—construction worker engineer_14876962.png" alt="">
+            </div>
+        </div>
+
+
+        <div id="contact">
+            <div class="contactText">
+                <h2>Arshad technical service</h2>
+                <p>Contact us today and let our experts handle all your service needs with trust and quality
+                    Our team provides quick and professional services right at your doorstep
+                </p>
+
+                <div class="contactinfo">
+                    <div class="phoneNumber">
+                        <img src="pics//phone-call.png" alt="">
+                        <div class="phoneInfo">
+                            <h4>Call Us </h4>
+                            <p>0525427458</p>
+                        </div>
+
+                    </div>
+                    <div class="Whatsapp">
+                        <img src="pics/whastapp.png" alt="">
+                        <div class="whatsappInfo">
+                            <h4>Whatsapp</h4>
+                            <p>0551694966</p>
+                        </div>
+
+                    </div>
+                    <div class="email">
+                        <img src="pics/email.png" alt="">
+                        <div class="emailInfo">
+                            <h4>Email</h4>
+                            <p>arsi16297@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+              
+
+
+            </div>
+
+
+            <div class="QiukLinks">
+                <h2>Quik Links</h2>
+                <a class="home" href="">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Our Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="ourServices">
+                <h2>Services Offered</h2>
+                <p>Swimming Pools Inst. & Electrical Work</p>
+                <p>Plumbing Work & Painting Work</p>
+                <p>Tiles Fixing & Plaster Works</p>
+                <p>Flooring Works & AC Installation & Maintenance</p>
+                <p>Cleaning Services & Electrical Fittings</p>
+                <p>Carpentry Work & Ceiling Work</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+  fetch("whatsappbtn.html")
+    .then(res => res.text())
+    .then(data => document.body.insertAdjacentHTML("beforeend", data));
+</script>
+
+</body>
+
+</html>
