@@ -9,6 +9,7 @@ html,
 body {
     min-height: 100%;
     width: 100%;
+    user-select: none;
 }
 
 .container {
@@ -898,4 +899,5 @@ body {
 .ServiceContainer .serviceInfo p{
     font-size: 14px;
 }
+
 }
