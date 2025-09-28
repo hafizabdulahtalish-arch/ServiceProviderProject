@@ -845,7 +845,34 @@ body {
 
 }
 
+.Location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7555D8;
+}
 
+.Location iframe{
+    width:700px;
+    height:400px;   
+}
+
+.Location h2{
+    color: white;
+    padding: 1rem;
+    color: #FFC527;
+}
+
+@media (max-width:850px){
+    .Location iframe{
+        width:340px;
+        height:300px;
+    }
+
+    .Location h2{
+        font-size: 20px;
+    }
+}
 
 .ServiceContainer {
     height: 100%;
@@ -902,4 +929,5 @@ body {
 }
 
 }
+
 
